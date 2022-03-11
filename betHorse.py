@@ -13,20 +13,6 @@ from datetime import datetime
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-# 楽天競馬アカウントの入金は事前にしておいてください。(100円以上)
-
-# loginID   : 楽天会員ログイン ユーザID 
-# password  : 上記パスワード
-# rakutenpw : 楽天会員用の暗証番号（4桁)
-# 
-# 例：
-# loginID = "foo@hoge.com"
-# password = "xGhdkgfiuyg"
-# rakutenpw = "5976"
-
-loginID = ""
-password = ""
-rakutenpw = ""
 
 # 楽天競馬の出馬表のURLより、投票したい競馬場を選び、以下Xの18桁のコードをbaseidへ設定する
 # https://keiba.rakuten.co.jp/race_card/list/RACEID/XXXXXXXXXXXXXXXXXX?l-id=top_raceInfoTodayTrackName_raceList_20 
