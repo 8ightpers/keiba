@@ -1,5 +1,4 @@
 import time 
-import chromedriver_binary
 import requests
 import numpy as np
 import math
@@ -34,7 +33,6 @@ race_list = ['01','02','03','04','05','06','07','08','09','10','11','12']
 # certifi             2021.10.8
 # cffi                1.15.0
 # charset-normalizer  2.0.12
-# chromedriver-binary 99.0.4844.51.0
 # cryptography        36.0.1
 # h11                 0.13.0
 # idna                3.3
